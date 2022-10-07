@@ -1,6 +1,7 @@
 html {
   font-size: 14px;
   font-family:sans-serif;
+  display: inline;
 }
 
 footer {
@@ -35,6 +36,11 @@ footer {
 def-text
 {
   font-family:sans-serif;
+}
+
+ser
+{
+  display: inline;
 }
 
 a.botr{
