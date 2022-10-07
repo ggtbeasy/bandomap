@@ -32,6 +32,7 @@ def-text
 }
 
 a.botr{
+  align:left;
   background:#fff;
   width:150px;
   display:block;
