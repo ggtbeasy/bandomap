@@ -78,3 +78,26 @@ a.botr:hover{
      -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
         transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 }
+
+a.hleb
+{
+  font-family: 'Dosis', sans;
+  font-size: 18px;
+  font-weight:200;
+  color:#000;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  background-color: darkgrey;
+}
+a.hleb:hover
+{
+  font-family: 'Dosis', sans;
+  font-size: 18px;
+  font-weight:200;
+  color:#000;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  background-color: rgb(87, 90, 87);
+}
