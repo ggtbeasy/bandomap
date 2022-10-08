@@ -17,8 +17,6 @@ footer {
 }
 
 .container {
-  max-width: 600px;
-  max-height: 150px;
   border-radius: 8px;
   background-color: #DEB8A0;
     box-shadow: 0 0 0 1px #a27b62;
