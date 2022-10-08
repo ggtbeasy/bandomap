@@ -1,70 +1,87 @@
 html {
-  font-size: 14px;
-  font-family:sans-serif;
-  display: inline;
-  background: #B6B3B3;
-}
-
-footer {
-  font-size: 14px;
-  font-family:sans-serif;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+    font-size: 14px;
+    font-family:sans-serif;
+    display: inline;
+    background: #727070;
   }
-}
+  
+  footer {
+    font-size: 14px;
+    font-family:sans-serif;
+  }
 
-.container {
-  border-radius: 8px;
-  background-color: #DEB8A0;
-}
+  .ser{
+    max-width: 75%;
+    max-height: 45%;
+    margin: 15px;
+    background-color: rgb(41, 40, 40);
+    padding: 23px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom: 5px solid #669AB9;
+    border-right: 5px solid #669AB9;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 75%;
+    max-height: 45%;
+    margin: 15px;
+    background-color: rgb(41, 40, 40);
+    padding: 23px;
+    border-radius: 28px;
+    border-bottom: 5px solid #669AB9;
+    border-right: 5px solid #669AB9;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+  
+  def-text
+  {
+    font-family:sans-serif;
+  }
 
-.pricing-header {
-  max-width: 700px;
-}
+  .vare{
+    max-width: 75%;
+    max-height: 45%;
+    margin: 15px;
+    background-color: rgb(41, 40, 40);
+    padding: 23px;
+    border-radius: 28px;
+    border-right: 9px solid #669AB9;
+  }
+  
+  
+  a.hleb
+  {
+    font-family: 'Dosis', sans;
+    font-size: 28px;
+    font-weight:200;
+    color:rgb(65, 65, 97);
+    text-transform:uppercase;
+    text-decoration:none;
+    text-align:center;
+    background-color: #7ca1e185;
+    line-height:3;
+    margin: 5px;
+    border-radius: 4px;
+    background-blend-mode: color;
+  }
 
-.card-deck .card {
-  min-width: 220px;
-}
-
-.border-top { border-top: 1px solid #e5e5e5; }
-.border-bottom { border-bottom: 1px solid #e5e5e5; }
-
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-def-text
-{
-  font-family:sans-serif;
-}
-
-ser
-{
-  display: inline;
-}
-
-
-a.hleb
-{
-  font-family: 'Dosis', sans;
-  font-size: 18px;
-  font-weight:200;
-  color:#000;
-  text-transform:uppercase;
-  text-decoration:none;
-  text-align:center;
-  background-color: darkgrey;
-  line-height:3;
-}
-a.hleb:hover
-{
-  font-family: 'Dosis', sans;
-  font-size: 20px;
-  font-weight:200;
-  color:#000;
-  text-transform:uppercase;
-  text-decoration:none;
-  text-align:center;
-  background-color: rgb(87, 90, 87);
+#right{
+    float:initial;
+    margin-bottom: 5px;
+    margin-right: 3px;
 }
