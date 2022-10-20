@@ -1,0 +1,155 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+	background: rgb(54, 54, 54);
+}
+
+
+/**
+ * Другие стили
+ */
+
+ .navbar{
+	width: 100%;
+	height: 85px;
+	box-shadow: 0px 4px 16px rgba(173, 216, 230, 0.664);
+	background-color: rgb(54, 54, 54);
+	border-bottom: 1px solid rgb(27, 27, 27);
+	}
+
+ .navbar .container{
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+ }
+
+ .navbar-menu{
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+ }
+
+ .navbar-menu li{
+	display: inline-block;
+ }
+
+ .navbar-menu li a{
+	display: inline-block;
+	color: #E8F9FD;
+	text-decoration: none;
+	padding: 15px;
+	opacity: 0.6;
+	transition: all 0.24s ease-in-out;
+	margin-right: 25px;
+	margin-top: 4px;
+ }
+ .navbar-menu li a:hover{
+	opacity: 1;
+	border-bottom: 2px solid #E8F9FD;
+	transition: all 0.5s ease-in-out;
+	
+ }
+
+ .navbar-wrap{
+	display: flex;
+	flex-flow: row nowrap;
+ }
+
+ .callback{
+	margin-top: 10px;
+	margin-left: 25px;
+	padding: 15px 15px;
+	background-color: lightblue;
+	border-radius: 50px;
+	text-decoration: none;
+	color: dimgrey;
+	transition: all 0.24s ease-out;
+ }
+
+ .callback:hover{
+	color: rgb(32, 32, 32);
+	transform: scale(1.04);
+ }
+
+ .callbaco{
+	margin-top: 10px;
+	padding: 12px 15px;
+	background-color: lightblue;
+	border-radius: 50px;
+	text-decoration: none;
+	color: dimgrey;
+	transition: all 0.24s ease-out;
+ }
+
+ .callbaco:hover{
+	color: rgb(32, 32, 32);
+	transform: scale(1.04);
+ }
+
+.navbar-brand{
+	font-weight: 700px;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+}
+
+.navbar-brand:hover{
+	color: lightblue;
+	transition: all 0.24s ease-in-out;
+}
+
+.card{
+	float: left;
+	max-width: 45%;
+	padding: 60px 20px;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+	background: rgba(77, 77, 77, 0.61);
+	border-radius: 28px;
+	border: 1px solid rgb(0, 0, 0);
+	text-align: center
+}
+.card p{
+	margin-bottom: 28px;
+}
+
+.select{
+	margin-top: 300px;
+}
+
+.hr{
+	color: #000;
+	text-decoration: none;
+	opacity: 0.6;
+	transition: all 0.24s ease-in-out;
+}
+
+.hr:hover{
+	color: #000;
+	text-decoration: none;
+	opacity: 1;
+	transition: all 0.24s ease-in-out;
+}
+
+#fln{
+	margin-top: -106px;
+	padding: 40px 20px;
+}
+
+#sqs{
+	opacity: 1;
+	border-bottom: 2px solid #E8F9FD;
+}
+
+
