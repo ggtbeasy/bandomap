@@ -1,0 +1,135 @@
+/**
+* Индексы (которые через #)
+*/
+
+#mega{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 500px;
+    max-height: 500px;
+}
+#Wmega{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 165px;
+    max-height: 500px;
+}
+
+#rule01{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 1350px;
+    max-height: 1500px;
+}
+#rule02{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 885px;
+    max-height: 1500px;
+}
+#rule03{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 915px;
+    max-height: 1500px;
+}
+#rule04{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 1100px;
+    max-height: 1500px;
+}
+
+.carw{
+	max-width: 75%;
+	padding: 60px 20px;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+	background: rgba(77, 77, 77, 0.61);
+	border-radius: 28px;
+	border: 1px solid rgb(0, 0, 0);
+}
+.carw p{
+	margin-bottom: 28px;
+}
+.carw p a{
+    color: #000;
+	text-decoration: none;
+	opacity: 0.6;
+	transition: all 0.24s ease-in-out;
+}
+.carw p a:hover{
+    color: #000;
+	text-decoration: none;
+	opacity: 1;
+	transition: all 0.24s ease-in-out;
+}
+.carw h3{
+    padding-bottom: 6px;
+    border-bottom: 2px solid #1f1f1fb4;
+}
+
+.rigq li{
+    margin-left: 15px;
+}
+.rigq li a{
+    color: #000;
+	text-decoration: none;
+	opacity: 0.6;
+	transition: all 0.24s ease-in-out;
+}
+.rigq li a:hover{
+    color: #000;
+	text-decoration: none;
+	opacity: 1;
+	transition: all 0.24s ease-in-out;
+}
+
+
+.rigq p{
+    margin-left: 15px;
+}
+
+.rigw{
+    float: left;
+}
+
+
+#tule0{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 1900px;
+    max-height: 1900px;
+}
+
+#Wcarw{
+    max-width: 75%;
+	padding: 60px 20px;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
+	background: rgba(77, 77, 77, 0.61);
+	border-radius: 28px;
+	border: 1px solid rgb(0, 0, 0);
+}
+#Wcarw a{
+    color: #000;
+	text-decoration: none;
+	opacity: 0.6;
+	transition: all 0.24s ease-in-out;
+    margin-left: 24px;
+}
+#Wcarw a:hover{
+    color: #000;
+	text-decoration: none;
+	opacity: 1;
+	transition: all 0.24s ease-in-out;
+}
