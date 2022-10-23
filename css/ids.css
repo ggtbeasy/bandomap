@@ -109,6 +109,13 @@
     height: 1900px;
     max-height: 1900px;
 }
+#abs{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 35px;
+    height: 500px;
+    max-height: 1900px;
+}
 
 #Wcarw{
     max-width: 75%;
