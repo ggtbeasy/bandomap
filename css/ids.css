@@ -140,3 +140,8 @@
 	opacity: 1;
 	transition: all 0.24s ease-in-out;
 }
+
+
+.huy a{
+	display: inline-block;
+ }
