@@ -1,155 +1,117 @@
-/**
- * Базовые стили для всего сайта
- */
-body {
-	position: relative;
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 16px;
-	line-height: 1.4;
-	color: #000;
-	min-width: 320px;
-	overflow-x: hidden;
-	height: auto;
-	background: rgb(54, 54, 54);
+.home{
+    
+    color: #defff4;
+    background-color: rgb(68, 68, 68);
 }
 
+.card1{
+    margin: auto;
+    margin-top: 150px;
+    padding: 30px;
+    width: 520px;
+    max-width: 600px;
+    height: 250px;
+    max-height: 300px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 28px;
+}
+.card1 p{
+    color: #a6c2b9;
+}
 
-/**
- * Другие стили
- */
+a{
+    text-decoration: none;
+    margin: auto;
+    color: #ace6d3;
+    background-color: rgba(87, 158, 128, 0.904);
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-left: 55px;
 
- .navbar{
-	width: 100%;
+}
+a:hover{
+    text-decoration: none;
+    margin: auto;
+    color: #ace6d3ab;
+    background-color: rgba(87, 158, 129, 0.61);
+    padding: 7px 10px;
+    border-radius: 9px;
+    transition: all 0.24s ease-in-out;
+    margin-left: 55px;
+}
+nav{
+    margin: auto;
+	width: 85%;
 	height: 85px;
-	box-shadow: 0px 4px 16px rgba(173, 216, 230, 0.664);
-	background-color: rgb(54, 54, 54);
-	border-bottom: 1px solid rgb(27, 27, 27);
+    background-color: rgb(75, 75, 75);
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
 	}
 
- .navbar .container{
+nav .container{
+    padding: 10px;
+    max-width: 80%;
 	height: inherit;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
  }
 
- .navbar-menu{
-	list-style-type: none;
-	padding-left: 0;
-	margin-bottom: 0;
+ nav .container a{
+    float: right;
  }
 
- .navbar-menu li{
-	display: inline-block;
+ .phc{
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+    width: 600px;
+    max-width: 800px;
+    height: 340px;
+    max-height: 550px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 28px;
  }
 
- .navbar-menu li a{
-	display: inline-block;
-	color: #E8F9FD;
-	text-decoration: none;
-	padding: 15px;
-	opacity: 0.6;
-	transition: all 0.24s ease-in-out;
-	margin-right: 25px;
-	margin-top: 4px;
+ .phc img{
+    margin-left: 40px;
  }
- .navbar-menu li a:hover{
-	opacity: 1;
-	border-bottom: 2px solid #E8F9FD;
-	transition: all 0.5s ease-in-out;
-	
+ .phc h4{
+    margin-left: 40px;
+ }
+ .phc p{
+    margin-left: 40px;
  }
 
- .navbar-wrap{
-	display: flex;
-	flex-flow: row nowrap;
- }
-
- .callback{
-	margin-top: 10px;
-	margin-left: 25px;
-	padding: 15px 15px;
-	background-color: lightblue;
-	border-radius: 50px;
-	text-decoration: none;
-	color: dimgrey;
-	transition: all 0.24s ease-out;
- }
-
- .callback:hover{
-	color: rgb(32, 32, 32);
-	transform: scale(1.04);
- }
-
- .callbaco{
-	margin-top: 10px;
-	padding: 12px 15px;
-	background-color: lightblue;
-	border-radius: 50px;
-	text-decoration: none;
-	color: dimgrey;
-	transition: all 0.24s ease-out;
- }
-
- .callbaco:hover{
-	color: rgb(32, 32, 32);
-	transform: scale(1.04);
- }
-
-.navbar-brand{
-	font-weight: 700px;
-	font-size: 26px;
-	text-decoration: none;
-	color: #000;
+ .card2{
+    margin: auto;
+    margin-top: 60px;
+    padding: 30px;
+    width: 800px;
+    max-width: 1500px;
+    height: 140px;
+    max-height: 300px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 28px;
+}
+.card2 p{
+    color: #a6c2b9;
+    size: 60px;
 }
 
-.navbar-brand:hover{
-	color: lightblue;
-	transition: all 0.24s ease-in-out;
+.cardS{
+    margin-left: 270px;
+    margin-top: 60px;
+    padding: 30px;
+    width: 650px;
+    max-width: 1500px;
+    height:max-content;
+    max-height: 900px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 28px;
+    border-bottom: 4px solid #c5ece0;
 }
-
-.card{
-	float: left;
-	max-width: 45%;
-	padding: 60px 20px;
-	margin-top: 50px;
-	margin-left: 25px;
-	margin-right: 25px;
-	background: rgba(77, 77, 77, 0.61);
-	border-radius: 28px;
-	border: 1px solid rgb(0, 0, 0);
-	text-align: center
+.cardS p{
+    color: #a6c2b9;
+    size: 60px;
 }
-.card p{
-	margin-bottom: 28px;
-}
-
-.select{
-	margin-top: 300px;
-}
-
-.hr{
-	color: #000;
-	text-decoration: none;
-	opacity: 0.6;
-	transition: all 0.24s ease-in-out;
-}
-
-.hr:hover{
-	color: #000;
-	text-decoration: none;
-	opacity: 1;
-	transition: all 0.24s ease-in-out;
-}
-
-#fln{
-	margin-top: -106px;
-	padding: 40px 20px;
-}
-
-#sqs{
-	opacity: 1;
-	border-bottom: 2px solid #E8F9FD;
-}
-
-
