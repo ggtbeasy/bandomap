@@ -2,6 +2,7 @@
     
     color: #defff4;
     background-color: rgb(68, 68, 68);
+    background-image: url("https://bandomac.ga/cool-background.png");
 }
 
 .card1{
@@ -12,8 +13,8 @@
     max-width: 600px;
     height: 250px;
     max-height: 300px;
-    background-color: rgb(75, 75, 75);
-    border-radius: 28px;
+    background-color: rgba(75, 75, 75, 0.2);
+    border-radius: 9px;
 }
 .card1 p{
     color: #a6c2b9;
@@ -22,30 +23,23 @@
 a{
     text-decoration: none;
     margin: auto;
-    color: #ace6d3;
-    background-color: rgba(87, 158, 128, 0.904);
-    padding: 5px 10px;
-    border-radius: 7px;
+    color: #accce6;
+    padding: 5px 10px 6px 10px;
     margin-left: 55px;
 
 }
 a:hover{
     text-decoration: none;
     margin: auto;
-    color: #ace6d3ab;
-    background-color: rgba(87, 158, 129, 0.61);
-    padding: 7px 10px;
-    border-radius: 9px;
+    color: #8eaac0;
     transition: all 0.24s ease-in-out;
     margin-left: 55px;
+    border-bottom: 4px solid rgba(87, 158, 129, 0.61);
 }
 nav{
     margin: auto;
-	width: 85%;
+	width: 100%;
 	height: 85px;
-    background-color: rgb(75, 75, 75);
-    border-bottom-left-radius: 28px;
-    border-bottom-right-radius: 28px;
 	}
 
 nav .container{
@@ -69,7 +63,7 @@ nav .container{
     max-width: 800px;
     height: 340px;
     max-height: 550px;
-    background-color: rgb(75, 75, 75);
+    background-color: rgba(75, 75, 75, 0.39); 
     border-radius: 28px;
  }
 
@@ -91,8 +85,8 @@ nav .container{
     max-width: 1500px;
     height: 140px;
     max-height: 300px;
-    background-color: rgb(75, 75, 75);
-    border-radius: 28px;
+    background-color: rgba(75, 75, 75, 0.25);
+    border-radius: 14px;
 }
 .card2 p{
     color: #a6c2b9;
@@ -105,10 +99,13 @@ nav .container{
     padding: 30px;
     width: 650px;
     max-width: 1500px;
-    height: max-content;
+    height:max-content;
     max-height: 900px;
-    background-color: rgb(75, 75, 75);
-    border-radius: 28px;
+    background-color: rgba(75, 75, 75, 0.39);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
     border-bottom: 4px solid #c5ece0;
 }
 .cardS p{
