@@ -100,12 +100,12 @@ nav .container{
 }
 
 .cardS{
-    margin-left: 270px;
+    margin: auto;
     margin-top: 60px;
     padding: 30px;
     width: 650px;
     max-width: 1500px;
-    height:max-content;
+    height: max-content;
     max-height: 900px;
     background-color: rgb(75, 75, 75);
     border-radius: 28px;
