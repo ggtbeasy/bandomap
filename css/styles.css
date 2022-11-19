@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://cdn.discordapp.com/attachments/1000330543793193010/1041388741341757490/unknown.png");
+    background-image: url("https://bandomac.ga/img/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Open sans", sans-serif;
@@ -58,13 +58,13 @@ img{
     border: 2px solid rgba(240, 255, 255, 0.74);
 }
 .title h3{
-    color: rgb(115, 117, 255);
+    color: #a900f8;
 }
 .title p{
-    color: rgb(255, 153, 85);
+    color: rgb(116, 85, 255);
     background-color: rgba(99, 99, 99, 0.342);
     border-radius: 28px;
-    padding: 5px 7px;
+    padding: 4px 6px;
 }
 
 .sidevar{
@@ -122,3 +122,27 @@ img{
     margin-top: 30px;
 }
 
+.wikiabc{
+    margin-top: 30px;
+    background-color: rgba(240, 255, 255, 0.226);
+    margin-left: 15%;
+    padding: 30px 40px;
+    width: 45%;
+    border: 2px solid rgba(240, 255, 255, 0.74);
+}
+
+.wikili{
+    list-style: none;
+    color: rgb(121, 226, 212);
+    margin-left: -30px;
+}
+
+.wikih4{
+    color: aquamarine;
+}
+
+#we{
+    background-color: rgba(99, 99, 99, 0.342);
+    border-radius: 28px;
+    padding: 4px 6px;
+}
