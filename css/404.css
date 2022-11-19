@@ -1,0 +1,15 @@
+.bpody{
+    background-color: aliceblue;
+}
+.mdiv{
+    margin: 20px 15px;
+}
+.t{
+    width: 50%;
+    height: 3px;
+    background-color: black;
+}
+
+.mdiv p{
+    margin-top: 0.6rem;
+}
