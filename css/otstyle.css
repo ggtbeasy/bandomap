@@ -1,0 +1,86 @@
+@media only screen  and (min-width: 900px){
+    .blog{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: auto;
+    }
+    .blogcard{
+        width: 35%;
+        height: max-content;
+        padding: 10px 14px;
+        padding-bottom: 18px;
+        border: 2px solid rgb(147, 255, 241);
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    .blogcard h3{
+        margin: 4px 1px;
+        padding: 3px 3px;
+        background-color: rgba(240, 248, 255, 0.164);
+        width: max-content;
+        border-radius: 5px;
+    }
+
+    .blogcard p{
+        margin: 4px 1px;
+        padding: 3px 3px;
+        background-color: rgba(240, 248, 255, 0.164);
+        width: 85%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .blogcard img{
+        margin: 4px 1px;
+        padding: 6px;
+        background-color: rgba(243, 249, 255, 0.616);
+        width: max-content;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        float: right;
+        margin-top: -35px;
+    }
+
+    #ba{
+        margin-left: 70px;
+    }
+}
+
+
+@media only screen  and (max-width: 799px){
+    .blogcard{
+        width: 65%;
+        margin: auto;
+        margin-top: 30px;
+        border: 2px solid rgb(147, 255, 241);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .blogcard img{
+        margin: 4px 1px;
+        padding: 6px;
+        background-color: rgba(243, 249, 255, 0.616);
+        width: max-content;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        float: right;
+        margin-top: -35px;
+    }
+
+    .blogcard p{
+        margin: 20px 1px;
+        padding: 3px 3px;
+        background-color: rgba(240, 248, 255, 0.164);
+        width: 85%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}

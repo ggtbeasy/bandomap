@@ -1,0 +1,58 @@
+@media only screen  and (min-width: 900px){
+    .rblock{
+        width: 55%;
+        height: max-content;
+        margin: auto;
+        margin-top: 30px;
+        background-color: rgba(130, 191, 206, 0.5);
+        padding: 10px 8px;
+        border: 2px solid rgba(45, 65, 70, 0.801);
+        border-radius: 10px;
+        transition: ease-in-out 0.4s;
+    }
+    .rblock:hover{
+        width: 55%;
+        height: max-content;
+        margin: auto;
+        margin-top: 30px;
+        background-color: rgba(130, 191, 206, 0.171);
+        padding: 10px 8px;
+        border: 2px solid rgba(45, 65, 70, 0.801);
+        border-radius: 10px;
+        transition: ease-in-out 0.4s;
+    }
+
+    #fir{
+        margin-top: 90px;
+    }
+    .rblock p{ padding: 5px;}
+    #lop{ padding: 5px 15px;}
+
+
+
+    
+    .family .rblock p{color: rgb(180, 215, 255);}
+    .family .rblock h4{color: rgb(131, 195, 255);}
+    .io{ background-color: rgba(71, 104, 112, 0.61);}
+}
+
+@media only screen  and (max-width: 899px){
+    .rblock{
+        width: 65%;
+        height: fit-content;
+        margin: 30px auto;
+        padding: 4px 6px;
+        background-color: rgba(130, 191, 206, 0.5);
+        border-radius: 10px;
+    }
+
+    #fir{
+        margin-top: 90px;
+    }
+    .rblock p{ padding: 5px;}
+    #lop{ padding: 5px 15px;}
+
+    .family .rblock p{color: rgb(180, 215, 255);}
+    .family .rblock h4{color: rgb(131, 195, 255);}
+    .io{ background-color: rgba(71, 104, 112, 0.61);}
+}
