@@ -1,36 +1,50 @@
-<!DOCTYPE html> <html lang="ru">
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>bandomas new papr</title>
-	<link rel="shortcut icon" type="image/x-icon" href="https://bandomac.ga/img/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=0.4">
-    <link rel="stylesheet" href="https://bandomac.ga/css/404.css">
-
-    <!-- Bootstrap reboot (для сброса стилей) -->
-	<link rel="stylesheet" href="https://bandomac.ga/libs/bootstrap-reboot.min.css">
-
-	<!-- Bootstrap сетка -->
-	<link rel="stylesheet" href="https://bandomac.ga/libs/bootstrap-grid.min.css">
-
-	<!-- Шрифты с Google Fonts -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://bandomac.ga/css/ws.css">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="./css/box.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandomax</title>
+    <link rel="stylesheet" href="./css/site.css">
 </head>
-<body class="bpody">
-    <div class="mdiv">
-        <h3>404</h3>
-        <p>Файла по такой ссылке не найдено, либо вы находитесь в папке</p>
-        <div class="t"></div>
-        <p>bandomac v3</p>
-    </div>
+<body>
+    <!-- 1 вер. Это пиздец бля полтора часа на эту хуету с ссылками и это блять без ебанных подсказок тт, бэкенда -->
+    <!-- 
+        .bar - задаёт навигатору стили для выстривания в ряд и размеры
+        .bl - блочный класс навигатора задаёт расстояние блоков logp? inks? auth?
+        .il & .btn - кнопик-ссылки
+        .au-list - копия листа ссылок
+        .log & .sig - стили кнопок логина и регистрации
+     -->
+    <header>
+        <nav class="bar">
+            <div class="bl">
+                <div class="logos">
+                    <img src="./icons/home.png" alt="">
+                    <h1 class="logp">Bandomax | Главная страница</h1>
+                </div>
+            </div>
+            <div class="bl">
+                <div class="inks">
+                    <li class="il"><a class="btn" href="./index.html">Главная</a></li>
+                    <li class="il"><a class="btn" href="./rules.html">Правила</a></li>
+                    <li class="il"><a class="btn" href="./faq.html">FAQ</a></li>
+                    <li class="il"><a class="btn" href="./other.html">Другое</a></li>
+                </div>
+            </div>
 
-    <div class="mdiv">
-        <h3>Перейти в...</h3>
-        <a href="https://bandomac.ga/index.html" class="link link--metis">Главная</a>
-        <a href="https://bandomac.ga/shop.html" class="link link--metis">Магазины</a>
-        <a href="https://bandomac.ga/art.html" class="link link--metis">Арты</a>
-        <a href="https://bandomac.ga/wiki.html" class="link link--metis">Вики</a>
+            <div class="bl">
+                <div class="auth">
+                    <li class="au-list"><a href="#" id="log">Вход</a></li>
+                    <li class="au-list"><a href="#" id="sig">Регистрация</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="family">
+        <img src="./icons/notfound.png" alt="">
+        <h3 ">404 not a found | файла нету</h3>
     </div>
 </body>
 </html>
