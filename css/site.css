@@ -130,6 +130,12 @@
             padding: 7px 4px;
             color: rgb(88, 141, 187);
         }
+
+        .logos{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
     }
 
     @media only screen  and (max-width: 799px) {
