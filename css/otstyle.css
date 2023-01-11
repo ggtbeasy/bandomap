@@ -66,7 +66,8 @@
         margin: 4px 1px;
         padding: 6px;
         background-color: rgba(243, 249, 255, 0.616);
-        width: max-content;
+        width: 32px;
+        height: 32px;
         border-radius: 5px;
         display: flex;
         flex-direction: row;
