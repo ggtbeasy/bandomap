@@ -136,6 +136,46 @@
             flex-direction: row;
             justify-content: flex-start;
         }
+        
+        
+              /*Стили для FaQ*/
+
+        .far{
+            margin-top: 40px;
+            margin-left: 30px;
+            width: 60%;
+            height: max-content;
+            padding: 20px;
+            border-left: 4px solid rgb(194, 243, 255);
+            border-radius: 8px;
+            background-color: rgba(148, 148, 148, 0.2);
+        }
+
+        .af{
+            margin: 5px 3px;
+            border: 2px solid rgba(98, 224, 255, 0.719);
+            padding: 5px;
+            border-radius: 8px;
+            width: 80%;
+        }
+
+        .qf{
+            margin: 20px 3px;
+            border: 2px solid rgba(98, 224, 255, 0.719);
+            padding: 8px;
+            border-radius: 8px;
+            width: 70%;
+        }
+
+        .qf h4{ 
+            border: 1px solid rgba(182, 240, 255, 0.342);
+            width: max-content;
+            padding: 4px;
+            border-radius: 3px;
+        }
+
+        .qf p{ padding-left: 7px;}
+
     }
 
     @media only screen  and (max-width: 799px) {
