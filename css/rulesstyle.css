@@ -10,6 +10,13 @@
         border-radius: 10px;
         transition: ease-in-out 0.4s;
     }
+    .rblock:nth-child(3){
+        margin-bottom: 45px;
+    }
+    
+    .rblock:nth-child(3):hover{
+        margin-bottom: 45px;
+    }
     .rblock:hover{
         width: 55%;
         height: max-content;
@@ -34,6 +41,23 @@
     .family .rblock p{color: rgb(180, 215, 255);}
     .family .rblock h4{color: rgb(131, 195, 255);}
     .io{ background-color: rgba(71, 104, 112, 0.61);}
+
+
+    .btndod{
+        text-decoration: none;
+        border: 1px solid rgba(177, 233, 255, 0.548);
+        padding: 4px 10.5px;
+        border-radius: 10px;
+        transition: ease-in-out 0.4s;
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+
+    
+    .btndod:hover{
+        transition: ease-in-out 0.4s;
+        color: rgb(161, 210, 253);
+    }
 }
 
 @media only screen  and (max-width: 899px){
